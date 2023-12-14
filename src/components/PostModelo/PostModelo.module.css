@@ -1,0 +1,47 @@
+.postModeloContainer {
+    color: var(--cor-fonte-post);
+    position: relative;
+}
+
+.fotoCapa,
+.titulo {
+    height: 204px;
+}
+
+.fotoCapa {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.3;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.titulo {
+    font-family: var(--fonte-secundaria);
+    padding: 0 7.5rem;
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+}
+
+.postConteudoContainer {
+    padding-top: 2.5rem;
+    padding-bottom: 4.5rem;
+    width: min(80vw, 1000px);
+    margin: 0 auto;
+}
+
+@media (max-width: 744px) {
+
+    .fotoCapa,
+    .titulo {
+        height: 104px;
+    }
+
+    .titulo {
+        padding: 0 1rem;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,39 @@
+.contato {
+    width: min(80vw, 1000px);
+    margin: 4rem auto;
+}
+
+.titulo {
+    font-family: var(--fonte-secundaria);
+    font-size: 4rem;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: .25rem;
+}
+
+input, textarea {
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+textarea {
+    min-height: 40vh;
+    line-height: 1.5;
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-style: italic;
+}
