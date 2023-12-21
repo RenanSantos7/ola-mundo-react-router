@@ -21,6 +21,9 @@
     line-height: 2rem;
     margin-bottom: 2rem;
     width: 40vw;
+    text-align: left;
+    -webkit-hyphens: auto;
+    hyphens: auto;
 }
 
 .imagens {
