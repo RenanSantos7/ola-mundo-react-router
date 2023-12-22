@@ -1,0 +1,21 @@
+@keyframes aparecer {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.botaoPraCima {
+    display: block;
+    position: fixed;
+    bottom: 5%;
+    right: 2%;
+    width: 50px;
+    border-radius: 50%;
+    padding: 0.5rem;
+    background-color: var(--azul-medio);
+    border: 3px solid var(--azul-medio);
+    cursor: pointer;
+    animation: aparecer .6s ease-in-out 1ms forwards;
+    opacity: 0;
+    animation-timeline: scroll();
+    animation-range: normal 50%;
+}
