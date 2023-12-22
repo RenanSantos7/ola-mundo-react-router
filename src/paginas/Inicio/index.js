@@ -2,7 +2,6 @@ import style from './inicio.module.css'
 import PostCard from 'components/PostCard/PostCard';
 import posts from 'assets/posts.json'
 
-
 export default function Inicio() {
     return (
         <main>

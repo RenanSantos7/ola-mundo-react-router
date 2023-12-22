@@ -1,0 +1,12 @@
+.titulo{
+    font-family: var(--fonte-secundaria);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+
+.posts {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
