@@ -1,5 +1,5 @@
 import style from './inicio.module.css'
-import PostCard from 'components/PostCard/Post';
+import PostCard from 'components/PostCard/PostCard';
 import posts from 'assets/posts.json'
 
 

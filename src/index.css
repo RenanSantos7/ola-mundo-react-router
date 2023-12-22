@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;600;700&family=Raleway&display=swap');
-@import url('https://renansantos.github.io/styles/reset.css');
+@import url('https://renansantos7.github.io/styles/reset.css');
 
 * {
   margin: 0;
@@ -12,6 +12,7 @@
   --azul-medio: #1875E8;
   --cor-fonte-principal: #041833;
   --cor-fonte-post: #444444;
+  --cinza-claro: #efefef;
   --branco: #FFF;
   --fonte-principal: 'Raleway', sans-serif;
   --fonte-secundaria: 'Lora', sans-serif;

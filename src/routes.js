@@ -1,6 +1,8 @@
 import Inicio from './paginas/Inicio';
 import SobreMim from './paginas/SobreMim';
+import Post from 'paginas/Post/Post';
 import Contato from "./paginas/Contato";
+
 import Menu from "./components/Menu/Menu";
 import Footer from 'components/Footer/Footer';
 import PaginaPadrao from 'components/PaginaPadrão';
@@ -11,13 +13,15 @@ function AppRoutes() {
     <BrowserRouter>
       <Menu />
       <Routes>
-        <Route path='/' element={<PaginaPadrao/>}>
-          {/* <Route path="/" element={<Inicio />} /> */}
+        
+        <Route path='/' element={<PaginaPadrao />}>
           <Route index element={<Inicio />} />
-          {/* <Route path="/sobre-mim" element={<SobreMim />} /> */}
           <Route path="sobre-mim" element={<SobreMim />} />
+          <Route path="posts/:id" element={<Post />} />
         </Route>
+        
         <Route path="/contato" element={<Contato />} />
+        
         <Route path="*" element={<div>Página não encontrada</div>} />
       </Routes>
       <Footer />
