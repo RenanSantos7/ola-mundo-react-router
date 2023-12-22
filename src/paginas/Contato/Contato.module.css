@@ -20,15 +20,21 @@
 .label {
     display: flex;
     flex-direction: column;
-    gap: .25rem;
+    gap: .5rem;
 }
 
-input, textarea {
+.input {
     padding: 1rem;
     border-radius: 8px;
+    border: 1px solid var(--cinza-medio);
 }
 
-textarea {
+.input:focus {
+    border-color: var(--azul-escuro);
+    outline: 1px solid var(--azul-escuro);
+}
+
+.textarea {
     min-height: 40vh;
     line-height: 1.5;
 }

@@ -8,6 +8,7 @@ import Footer from 'components/Footer/Footer';
 import PaginaPadrao from 'components/PaginaPadrão';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import NaoEncontrado from 'paginas/NaoEncontrado';
+import BotaoPraCima from 'components/BotaoPraCima/BotaoPraCima';
 
 function AppRoutes() {
   return (
@@ -27,6 +28,7 @@ function AppRoutes() {
         <Route path="*" element={<NaoEncontrado />} />
       </Routes>
       <Footer />
+      <BotaoPraCima />
     </BrowserRouter>
   );
 }

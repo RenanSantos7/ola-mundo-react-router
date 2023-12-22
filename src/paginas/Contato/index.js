@@ -1,25 +1,25 @@
 import Banner from 'components/Banner/Banner'
-import styles from './Contato.module.css'
+import style from './Contato.module.css'
 
 export default function Contato() {
     return (
         <main>
             <Banner />
-            <div className={styles.contato}>
-                <h2 className={styles.titulo}>Contato</h2>
-                <form className={styles.form}>
-                    <label className={styles.label}>
+            <div className={style.contato}>
+                <h2 className={style.titulo}>Contato</h2>
+                <form className={style.form}>
+                    <label className={style.label}>
                         Nome
-                        <input type='text' placeholder='Digite seu nome, por favor' />
+                        <input className={style.input} type='text' placeholder='Digite seu nome, por favor' />
                     </label>
                     
-                    <label className={styles.label}>
+                    <label className={style.label}>
                         E-mail
-                        <input type='email' placeholder='Digite seu e-mail, por favor' />
+                        <input className={style.input} type='email' placeholder='Digite seu e-mail, por favor' />
                     </label>
     
-                    <label className={styles.label} htmlFor='mensagem' >Mensagem
-                    <textarea id='mensagem' placeholder='Digite aqui sua mensagem'></textarea></label>
+                    <label className={style.label} htmlFor='mensagem' >Mensagem
+                    <textarea className={`${style.input} ${style.textarea}`} id='mensagem' placeholder='Digite aqui sua mensagem'></textarea></label>
                 </form>
             </div>
         </main>
