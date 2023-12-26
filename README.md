@@ -9,6 +9,8 @@ Este é um projeto em React desenvolvido no curso *React: desenvolvendo em React
 ## Tecnologias utilizadas
 - React (Create React App)
 - React Router DOM
+- React Markdon (https://www.npmjs.com/package/react-markdown)
+- 
 
 ## Como acessar online
 
