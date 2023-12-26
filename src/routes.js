@@ -15,13 +15,12 @@ function AppRoutes() {
     <BrowserRouter>
       <Menu />
       <Routes>
-        
         <Route path='/' element={<PaginaPadrao />}>
           <Route index element={<Inicio />} />
           <Route path="sobre-mim" element={<SobreMim />} />
         </Route>
         
-        <Route path="posts/:id/*" element={<Post />} />
+        <Route path="/posts/:id/*" element={<Post />} />
         
         <Route path="/contato" element={<Contato />} />
         
