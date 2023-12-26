@@ -9,8 +9,7 @@ Este é um projeto em React desenvolvido no curso *React: desenvolvendo em React
 ## Tecnologias utilizadas
 - React (Create React App)
 - React Router DOM
-- React Markdon (https://www.npmjs.com/package/react-markdown)
-- 
+- React Markdown (https://www.npmjs.com/package/react-markdown)
 
 ## Como acessar online
 
@@ -20,11 +19,16 @@ O deploy do projeto foi feito pelo [Netilify](https://www.netlify.com/) e está 
 
 Este projeto foi criado usando [Create React App](https://github.com/facebook/create-react-app), portanto você pode seguir a documentação desse script para fazer deploy do site localmente.
 
-No caso, após baixar, navegue até a raiz do projeto e abra um terminal. Nele rode o seguinte comando:
+No caso, primeiro você precisará baixar o projeto com o seguinte comando:
 
-```node
+```
+https://github.com/RenanSantos7/ola-mundo-react-router.git
+``
+
+Agora, navegue até a raiz do projeto e abra um terminal. Nele rode o seguinte comando:
+
+```
 npm start
 ```
 
 O navegador será aberto no endereço `http://localhost:3000` para que você possa visualizá-lo.
-
