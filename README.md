@@ -22,8 +22,8 @@ Este projeto foi criado usando [Create React App](https://github.com/facebook/cr
 No caso, primeiro você precisará baixar o projeto com o seguinte comando:
 
 ```
-https://github.com/RenanSantos7/ola-mundo-react-router.git
-``
+git clone https://github.com/RenanSantos7/ola-mundo-react-router.git
+```
 
 Agora, navegue até a raiz do projeto e abra um terminal. Nele rode o seguinte comando:
 
